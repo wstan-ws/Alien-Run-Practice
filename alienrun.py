@@ -97,6 +97,9 @@ pygame.init()
 screen = pygame.display.set_mode((800, 400))
 pygame.display.set_caption("Alien Run")
 
+icon = pygame.image.load("graphics/player/player_stand.png")
+pygame.display.set_icon(icon)
+
 clock = pygame.time.Clock()
 
 font = pygame.font.Font("font/Pixeltype.ttf", 60)
